@@ -1,0 +1,26 @@
+
+.main-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    row-gap: 20px;
+    /* column-gap: 10px; */
+    /* border:2px solid black; */
+    /* box-shadow: 4px 4px 5px black; */
+    /* margin-top: -14px; */
+    /* background: linear-gradient(-45deg, rgb(201, 244, 242), rgb(127, 216, 222), rgb(7, 125, 157), rgb(44, 166, 187));
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite; */
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

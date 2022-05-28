@@ -1,0 +1,16 @@
+<div class="my-3 main-box">
+    <h1> A Simple TODO App</h1>
+    <div class="former">
+
+        <form #heroform="ngForm">
+            
+            <input  type="text"  name="title" id="title" [(ngModel)]="title" placeholder="Title">
+            <br>
+            <!-- <input class="desc-box" type="text"  name="desc" id="desc" [(ngModel)]="desc" placeholder="Description"> -->
+            <textarea name="desc" id="desc" cols="30" rows="10" [(ngModel)]="desc" placeholder="Description"></textarea>
+            <br><br>
+            
+            <button (click)="todoadder(heroform.value)" class="btn btn-success"> Add a new todo</button>
+        </form>
+    </div>
+</div>
